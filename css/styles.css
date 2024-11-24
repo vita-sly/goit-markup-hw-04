@@ -236,14 +236,8 @@ border-radius: 2px;
   align-items: center;
   gap: 24px;
 }
-
 .benefits-list {
   width: calc((100% - 72px) / 4);
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
 }
 
 .benefits-icon {
@@ -258,6 +252,10 @@ border-radius: 2px;
   border-radius: 4px;
   padding: 24px 100px;
   margin-bottom: 8px; 
+}
+
+.benefits-subtitle {
+  margin-bottom: 8px;
 }
 
 .team {
@@ -294,10 +292,6 @@ border-radius: 2px;
 }
 
 .team-name {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   padding: 32px 0;
 }
 
@@ -376,10 +370,6 @@ border-radius: 2px;
 }
 
 .portfolio-name {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -431,7 +421,6 @@ border-radius: 2px;
 }
 
 .footer {
-  display: flex;
   background-color: #2e2f42;
   padding: 100px 0;
 }
@@ -439,8 +428,6 @@ border-radius: 2px;
 .footer-container {
   display: flex;
   align-items: baseline;
-  justify-content: center;
-  flex-direction: row;
 }
 
 .footer-logo-text {
@@ -452,8 +439,16 @@ border-radius: 2px;
   margin-bottom: 16px;
 }
 
-.footer-text {
+.footer-text-logo {
   width: 264px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  
+}
+
+.footer-text {
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.02em;
